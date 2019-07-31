@@ -2,7 +2,7 @@ from aylienapiclient import textapi
 import pprint
 
 #client = textapi.Client(APP_ID, APP_KEY)
-c = textapi.Client("9cc0b62f", "289b20a1fbd17af4c6cd277faa4ab720")
+c = textapi.Client("YOUR_APP_ID", "YOUR_APP_KEY")
 
 #s = c.Sentiment({'text': 'John is a very good football player!. I am also happy.'})
 text ="Delicious food. Disappointing service."
